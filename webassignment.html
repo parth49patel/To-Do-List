@@ -1,0 +1,54 @@
+<!--
+Web Programming Assignment
+Name: Parth Patel
+Student Id: 100685337
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>TO-DO LIST</title>
+        <link rel="stylesheet" type="text/css" href="webassignment.css"/>
+        <script rel="javascript" type="text/javascript" src="webassignment.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div>
+            <h1>TO DO LIST</h1>
+        </div>
+        <div id="top">
+            <div id="inputfortask">
+                <fieldset>
+                    <label for="taskInput">New Task</label>
+                    <input type="text" id="taskInput" placeholder="Add a new Task here..."><br>
+                    <label for="dueDate">Due Date</label>
+                    <input type="date" id="dueDate"><br>
+                    <label for="priorityInput">Set Priority</label>
+                    <select id="priorityInput">
+                        <option value="None" selected>None</option>
+                        <option value="Urgent">Urgent</option>
+                        <option value="High">High</option>
+                        <option value="Medium">Medium</option>
+                        <option value="Low">Low</option>
+                        <option value="Unknown">Unknown</option>
+                    </select><br><br>
+                    <button onclick="addTask()" class="add">Add Task</button>
+                </fieldset>
+            </div>
+        </div>
+        <hr>
+        <div id="bottom">
+            <div id="container">
+                <div id="col1">
+                    <h2>Ongoing Tasks</h2>
+                    <ul id="taskList"></ul>
+                </div>
+                <div id="col2">
+                    <h2>Completed Tasks</h2>
+                    <ul id="completeList"></ul>
+                </div>
+            </div>
+        </div>
+    </body>  
+</html>

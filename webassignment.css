@@ -1,0 +1,104 @@
+/*
+Web Programming Assignment
+Name: Parth Patel
+Student Id: 100685337
+*/
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+fieldset{
+    display: inline-block;
+    background-color: rgb(256, 256, 256);
+    border: none;
+}
+#inputfortask{
+    font-weight: bolder;
+    text-align: center;
+    color: #000000;
+    padding: 20px;
+    background-image: url(back.jpg);
+    background-size: contain;
+    border-radius: 20px;
+}
+h1{
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(256, 256, 256);
+    background-color: #557a95;
+    padding: 20px;
+    border-radius: 20px;
+}
+ul{
+    list-style: decimal;
+    font-size: medium;
+    display: block;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+#col1, #col2{
+    float: left;
+    list-style: decimal;
+}
+#col1{
+    background-color: rgb(222, 210, 130);
+    padding: 5px;
+    border-radius: 20px;
+}
+#col2{
+    background-color: rgb(130, 222, 130);
+    padding: 5px;
+    border-radius: 20px;
+}
+#top{
+    background-color: #c7c2c2;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+#bottom{
+    border: none;
+    padding: 5px;
+}
+input{
+    font-size: 100%;
+    color: #0a0a09;
+    background-color: #f2f2f2;
+    border: 1px solid #bdbdbd;
+    padding: 5px 5px 5px 30px;
+    border-radius: 5px;
+    margin: 5px 5px;
+}
+input:hover{
+    background-color: #ffffff;
+    border: 2px solid #b1e1e4;
+}
+.add{
+    font-size: medium;
+    padding: 2px;
+}
+input .add{
+    color: #1a131700;
+    text-shadow: 0px 1px 1px #fff;
+}
+.add:hover{
+    background-color: rgb(133, 133, 198);
+    cursor: pointer;
+}
+.completeAdd, .deleteAdd, .moveBack{
+    background-color: rgb(130, 222, 130);
+    cursor: pointer;
+    border-radius: 2px;
+    border: 1px solid black;
+    padding: 2px;
+    margin: 2px;
+}
+.deleteAdd{
+    background-color: rgb(224, 101, 101);
+}
+.moveBack{
+    background-color: rgb(222, 210, 130);
+}
